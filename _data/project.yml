@@ -1,0 +1,34 @@
+- img: arduino-stock.jpeg
+  title: Multi-purpose Arduino display station
+  tech-stack: Arduino, C
+  description: A three-in-one system that displays ambient humidity, temperature, and current time with alarm clock on LCD screen using a RTC time module and DHT11 Temperature/Humidity module
+  link: https://github.com/upadhyaydhruv/arduino_alarm_clock
+
+- img: super-drive.png
+  title: Super-Drive
+  tech-stack: Java
+  description: A graphics-based multilevel game built using Java Swing and object-oriented programming concepts. I oversaw the development of the entire product as the project manager of a four-person team
+  link: https://github.com/upadhyaydhruv/ics4u1-project
+
+- img: covid.png
+  title: COVID-19 Prediction App
+  tech-stack: Python, Dart, Scikit-Learn, Flutter
+  description: A project made as part of the 2020 NASA SpaceApps challenge hackathon. An application that predicted whether a certain area would be a COVID-19 hotspot or not, based on a variety of factors.
+  link: https://github.com/upadhyaydhruv/tron_meme_team/tree/Flutter_Site/Model_Training
+
+- img: skills.png
+  title: SkillsRobotics Autonomous Code
+  tech-stack: C++, Vex-Robotics
+  description: Code for the autonomous portions of the Skills Robotics Competition, where I used a PID algorithm to code a robot that followed a line and did specific tasks as part of the challenge on the Vex Robotics platform.
+  link: https://github.com/upadhyaydhruv/SkillsRoboticsCode
+
+- img: scikit.png
+  title: Machine Learning Scripts during Bioinformatics Internship
+  tech-stack: Python, Scikit-Learn, Numpy, Pandas, Matplotlib
+  description: As a bioinformatics research intern at the Foundation of Student Science and technology, I developed a machine learning model using a random forest algorithm that predicted the chances of developing pancreatic cancer using a variety of factors.
+  link: https://github.com/upadhyaydhruv/Research_Co-op_ML
+
+- img: metar.jpg
+  title: Aviation Weather Report Decoder
+  tech-stack: Java
+  description: Used Java regular expressions (RegEx) to develop a program that converts Meteorological Aviation Reports (METAR), which are codes used by pilots, into plain-text readable by any human.

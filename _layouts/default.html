@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{page.title}}-{% endif %} {{site.name}}</title>
+    <meta name="author" content="{{site.name}}"/>
+    <meta name="description" content="{% if page.excerpt%}{{page.excerpt | strip_html}}{% else %}{{site.description}}{%endif%}"/>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="alternate" type="application/rss+xml" href="{{site.url}}{{site.baseurl}}/feed.xml" />
+    <link rel="stylesheet" href="{{site.baseurl}}/style.css"/>
+
+</head>
+<body>
+    <nav class="main-nav">
+        <a href="#" class="main-nav__item main-nav__item--main">Dhruv Upadhyay</a>
+        <span class="main-nav__spacer"></span>
+        <a href="{{site.baseurl}}/" class="main-nav__item">About Me</a>
+        <a href="{{site.baseurl}}/experience.html" class="main-nav__item">Experience</a>
+        <a href="{{site.baseurl}}/resume.pdf" class="main-nav__item">Resume</a>
+        <a href="{{site.baseurl}}/contact.html" class="main-nav__item">Contact</a>
+    </nav>
+    {{content}}   
+</body>
+
+<footer class="footer">
+    <a href="https://www.linkedin.com/in/dhruv-upadhyay1/" class="fa fa-linkedin"></a>
+    <a href="https://www.github.com/upadhyaydhruv/" class="fa fa-github"></a>
+    <a href="https://www.instagram.com/dhruvupadhyay14" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/dhruv.upadhyay.5477272" class="fa fa-facebook"></a>
+</footer>
+
+</html> 

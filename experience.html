@@ -1,0 +1,46 @@
+---
+layout: page
+title: Experience and Accomplishments
+---
+
+<p>Here is my current extracurricular and work-related positions. If you would like to see some of my past involvement, don't hesitate
+    to look at my <a href="https://www.linkedin.com/in/dhruv-upadhyay1/">linkedin</a> and current <a href="DHRUV_UPDATED_RESUME">resume</a>
+</p>
+
+<div class="job-tiles">
+    {% for experiences in site.data.experience %}
+    <section class="job-tile">
+        <h2 class="job__header">{{experiences.title}}</h2>
+        <div class="date">
+            <p>{{experiences.date}}</p>
+        </div>
+        <div class="job__content">
+            <!--To add-->
+            {{experiences.description}}
+        </div>
+        <div class="job__link">
+            <a href="{{experiences.link}}">More Information</a>
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
+<p>Here are some of my relevant side projects that I have worked on or am currently pursuing</p>
+<div class="tiles">
+    {% for project in site.data.project %}
+    <section class="tile tile--horizontal">
+        <img src="{{project.img}}" alt="" class="tile__img">
+        <h2 class="tile__header">{{project.title}}</h2>
+        <div class="tech__stack">
+            <p>{{project.tech-stack}}</p>
+        </div>
+        <div class="tile__content">   
+            {{project.description}}      
+        </div>
+        <div class="tile__buttons">
+            <a href="{{project.link}}">Github</a>
+        </div>
+    </section>
+    {% endfor %}
+</div>
+
