@@ -322,6 +322,7 @@ main {
     text-align: center;
     padding: 8px;
     background: #fafafa;
+    clear: both;
 }
 
 .footer-icon,
