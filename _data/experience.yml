@@ -1,9 +1,28 @@
+- title: University of Waterloo Robotics Team - Firmware Subteam Member
+  date: August 2020-Present
+  description: The University of Waterloo Robotics Team develops a Mars Rover for the University Rover Challenge (URC) every year. As a firmware 
+  subteam member, I help code the embedded systems for the rover using C and C++ on the ARM STM32 microcontroller through the MBED-OS platform.
+  I implemented an interrupt-based mechanism for receiving CAN messages through MBED events to reduce the amount of dropped CAN messages.
+  link: http://urc.marssociety.org/home/urc-news
+
 - title: Software Developer Intern, Automated Visualization (AuVis)
-  date: June 2020-Present
-  description: Selected as a Software Development Intern through the Practicum program, I am working in a team to develop a data visualization dashboard, where I am responsible for establishing data-connection gateways between platforms such as Twitter and Linkedin to the application using Python, Flask, and OAuth. This is an amazing learning experience for me, and I am very excited for the rest of the summer.
-  link: https://www.practicum.us/
+  date: June 2020-December 2020
+  description: AuVis is a SaaS startup that develops commercial data visualization dashboards for companies through its Molecule Dashboard. As a Software Engineering intern, 
+  I worked with a team of developers to produce an MVP, and continued development beyond that stage. I established data-connection gateways
+  between platforms such as Twitter and Linkedin to the application using Python, Flask, and OAuth2.0. I also planned the database schema
+  and made SQL queries to aid the transition of the app from GCP to AWS. Finally, I implemented the data encryption using the AWS Key management
+  system and introduced best practices for our code repository.
+  link: https://moleculedashboard.com/
+
+- title: Bioinformatics Research Intern, Foundation of Student Science and Technology (FSST)
+  date: February 2019-June 2019
+  description: As a research intern at FSST, I used machine learning to find correlations between alcohol consumption and pancreatic cancer
+  risk. Training a statistical model, I was able to attain 98% accuracy training the data on a random forest algorithm using Pandas and Scikit-Learn.
+  Additionally, I created various plots to represent the data and model using Matplotlib. Ultimately, I developed a research paper representing my findings.
+  link: https://github.com/upadhyaydhruv/Research_Co-op_ML
 
 - title: Youth Delegate at the Durham Environmental Advisory Committee
-  date: April 2019-Present
-  description: I advise the government on topics of environmental interest as a youth representative along with delegates from across the region. I spearheaded a region-wide initiative to facilitate the creation and maintenance of pollinator friendly spaces throughout Durham region by the distribution of wildflower seeds attracting various pollinator species in tandem with annual compost distribution days
+  date: April 2019-September 2020
+  description: I advised the government on topics of environmental interest as a youth representative along with delegates from across the region. I spearheaded a region-wide initiative to facilitate the creation and maintenance of pollinator friendly spaces throughout Durham region by the distribution of wildflower seeds attracting various pollinator species in tandem with annual compost distribution days
   link: https://www.durham.ca/en/regional-government/committees.aspx#Durham-Environmental-Advisory-Committee
+

@@ -32,3 +32,14 @@
   title: Aviation Weather Report Decoder
   tech-stack: Java
   description: Used Java regular expressions (RegEx) to develop a program that converts Meteorological Aviation Reports (METAR), which are codes used by pilots, into plain-text readable by any human.
+  link: https://github.com/upadhyaydhruv/METARDecoder
+
+- img: sudo_image.jpeg
+  title: Computer Vision-based Sudoku Solver
+  tech-stack: Python, OpenCV, Keras
+  description: A project that solves your sudoku board for you based off a picture taken at any angle! Developed using OpenCV operations such as thresholding, warp transform, and Hough lines to extract sudoku board from an image. Implemented a neural network model trained using Kerasto identify and display digits in a terminal-based UI and computed the solved board using a recursive backtracking algorithm written in Python
+
+- img:
+  title: Bluetooth Controlled Wheelchair Prototype
+  tech-stack: Arduino, C++
+  description: Currently developing an Arduino based wheelchair prototype using a four-wheeled drivetrain that is controlled remotely via the HC-05 bluetooth module and a joystick. I implemented a differential drive algorithm allowing for fine control of the car, and am working on a status monitor using a Flask web-app hosted through a Raspberry-Pi.
