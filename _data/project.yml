@@ -38,8 +38,10 @@
   title: Computer Vision-based Sudoku Solver
   tech-stack: Python, OpenCV, Keras
   description: A project that solves your sudoku board for you based off a picture taken at any angle! Developed using OpenCV operations such as thresholding, warp transform, and Hough lines to extract sudoku board from an image. Implemented a neural network model trained using Kerasto identify and display digits in a terminal-based UI and computed the solved board using a recursive backtracking algorithm written in Python
+  link:
 
 - img:
-  title: Bluetooth Controlled Wheelchair Prototype
+  title: Object Following Arduino Robot
   tech-stack: Arduino, C++
-  description: Currently developing an Arduino based wheelchair prototype using a four-wheeled drivetrain that is controlled remotely via the HC-05 bluetooth module and a joystick. I implemented a differential drive algorithm allowing for fine control of the car, and am working on a status monitor using a Flask web-app hosted through a Raspberry-Pi.
+  description: Developed an Arduino-controlled robot that follows any object in it's nearby proximity. Used a AA battery pack soldered to a DC adapter connected to the Arduino to power 4 DC motors and a servo. The DC motors were formed as the drivetrain. The servo was used to change the direction of the ultrasonic sensor to sense and find the direction of the object present. Based on this input, the drivetrain direction was continuously updated.
+  link: https://github.com/upadhyaydhruv/object-following-robot
